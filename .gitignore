@@ -216,3 +216,104 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ==============================================
+# 算数基础项目 .gitignore 文件
+# 专为数学教育项目优化
+# ==============================================
+
+# --------------------------
+# 系统文件（所有系统通用）
+# --------------------------
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+*.bak
+*.cache
+
+# --------------------------
+# 编辑器和IDE配置
+# --------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-*
+.project
+.classpath
+.settings/
+
+# --------------------------
+# Python相关（教学工具）
+# --------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --------------------------
+# LaTeX相关（数学公式必备）
+# --------------------------
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.bbl
+*.blg
+*.idx
+*.ind
+*.lof
+*.lot
+*.xdv
+*.pdfsync
+*.nav
+*.snm
+*.vrb
+
+# --------------------------
+# 办公文档（根据需要调整）
+# --------------------------
+# 保留可编辑源文件不提交，只提交最终PDF
+*.docx
+*.doc
+*.pptx
+*.ppt
+*.xlsx
+*.xls
+# *.pdf  # 取消注释这行来禁止提交PDF文件
+
+# --------------------------
+# 媒体文件（根据需要调整）
+# --------------------------
+# 小图片可以提交，大图片建议使用图床
+# *.png
+# *.jpg
+# *.jpeg
+# *.gif
+# *.svg
+*.mp4
+*.avi
+*.mov
+*.mp3
